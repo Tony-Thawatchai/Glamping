@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="../style.css">
+    <!-- fontawesome icon link -->
+    <script src="https://kit.fontawesome.com/3a247b4956.js" crossorigin="anonymous"></script>
+    <!-- javascript link -->
+    <script src="../main.js" defer></script>
+    <!-- flavicon link -->
+    <link rel="icon" href="../img/tent.png">
+</head>
+
+<body class="contact-page">
+    <header>
+        <nav>
+            <button aria-label="menu button" type="button" class="header-btn" id="menuBtn">
+                <i class="fa-solid fa-bars fa-lg icon" aria-hidden="true"></i>
+            </button>
+        </nav>
+
+        <a href="../index.html">
+            <h1>Glamper
+                <!-- <hr class="accent-line"> -->
+
+            </h1>
+            <h3 class="header-tagline">Experiencing nature glamorously</h3>
+        </a>
+
+        <button aria-label="Seach button" type="button" id="searchBtn" class="header-btn"><i
+                class="fa-solid fa-lg fa-magnifying-glass icon" aria-hidden="true"></i>
+        </button>
+        <form action="https://www.google.com/search" id="searchBar" method="get" class="under-title">
+            <label for="Search">Search:</label>
+            <input type="text" name="q" id="Search">
+            <button type="submit">Search</button>
+        </form>
+        <ul class="under-title" id="menuBar">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/source.html">Source</a></li>
+            <li><a href="../pages/contact.html">Contact us</a></li>
+        </ul>
+
+
+
+    </header>
+
+    <main>
+        <div class="contact-wrap">
+
+            <img src="../img/08.webp" alt="Family grills marshmellow on campfire" class="main-photo contact-photo">
+            <div class="source-box white contact">
+
+                <h1 class="section-header">Contact us
+                </h1>
+                <form action="https://formspree.io/f/xbjbegbe" method="POST">
+                    <label for="email">Leave your email</label>
+                    <input type="text" name="email" id="email" placeholder="youremail@email.com">
+                    <label for="message" id="message-label">
+                        Your message:
+                    </label>
+                    <textarea name="message" id="message" placeholder="What you want to tell us?" rows="1"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <div class="footer-wrap">
+            <p>@Tony-Thawatchai</p>
+            <a target="_blank" href="https://www.facebook.com/GuideGlamping/">Facebook</a>
+        </div>
+    </footer>
+</body>
+
+</html>
