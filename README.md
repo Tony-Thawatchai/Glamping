@@ -1,0 +1,2 @@
+# Glamping
+Glamping : Magazine website
